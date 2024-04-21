@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FBE10B72BBB4D25007707E0 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 2FBE10B62BBB4D25007707E0 /* RealityKitContent */; };
+		2FBE10B92BBB4D25007707E0 /* demoForVisionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE10B82BBB4D25007707E0 /* demoForVisionApp.swift */; };
+		2FBE10BB2BBB4D25007707E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FBE10BA2BBB4D25007707E0 /* ContentView.swift */; };
+		2FBE10BF2BBB4D25007707E0 /* ImageBasedLighting.skybox in Resources */ = {isa = PBXBuildFile; fileRef = 2FBE10BE2BBB4D25007707E0 /* ImageBasedLighting.skybox */; };
+		2FBE10C12BBB4D26007707E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBE10C02BBB4D26007707E0 /* Assets.xcassets */; };
+		2FBE10C42BBB4D26007707E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FBE10C32BBB4D26007707E0 /* Preview Assets.xcassets */; };
+		2FC676142BBC8E77006250F6 /* InventoryItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC676132BBC8E77006250F6 /* InventoryItemView.swift */; };
+		2FCCC4932BBD107E006EB1F4 /* InventoryItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FCCC4922BBD107E006EB1F4 /* InventoryItemViewModel.swift */; };
+		2FF2B4A72BCE392B00795AF5 /* sneaker_pegasustrail.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2B49F2BCE392B00795AF5 /* sneaker_pegasustrail.usdz */; };
+		2FF2B4A82BCE392B00795AF5 /* toy_drummer_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2B4A02BCE392B00795AF5 /* toy_drummer_idle.usdz */; };
+		2FF2B4A92BCE392B00795AF5 /* flower_tulip.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2B4A12BCE392B00795AF5 /* flower_tulip.usdz */; };
+		2FF2B4AA2BCE392B00795AF5 /* toy_biplane_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2B4A22BCE392B00795AF5 /* toy_biplane_idle.usdz */; };
+		2FF2B4AB2BCE392B00795AF5 /* teapot.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2B4A32BCE392B00795AF5 /* teapot.usdz */; };
+		2FF2B4AC2BCE392B00795AF5 /* sneaker_airforce.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2B4A42BCE392B00795AF5 /* sneaker_airforce.usdz */; };
+		2FF2B4AD2BCE392B00795AF5 /* robot_walk_idle.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2B4A52BCE392B00795AF5 /* robot_walk_idle.usdz */; };
+		2FF2B4AE2BCE392B00795AF5 /* toy_car.usdz in Resources */ = {isa = PBXBuildFile; fileRef = 2FF2B4A62BCE392B00795AF5 /* toy_car.usdz */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2FBE10B12BBB4D25007707E0 /* demoForVision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = demoForVision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FBE10B52BBB4D25007707E0 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		2FBE10B82BBB4D25007707E0 /* demoForVisionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = demoForVisionApp.swift; sourceTree = "<group>"; };
+		2FBE10BA2BBB4D25007707E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2FBE10BE2BBB4D25007707E0 /* ImageBasedLighting.skybox */ = {isa = PBXFileReference; lastKnownFileType = file.skybox; path = ImageBasedLighting.skybox; sourceTree = "<group>"; };
+		2FBE10C02BBB4D26007707E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2FBE10C32BBB4D26007707E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FBE10C52BBB4D26007707E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2FC676132BBC8E77006250F6 /* InventoryItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItemView.swift; sourceTree = "<group>"; };
+		2FCCC4922BBD107E006EB1F4 /* InventoryItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InventoryItemViewModel.swift; sourceTree = "<group>"; };
+		2FF2B49F2BCE392B00795AF5 /* sneaker_pegasustrail.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker_pegasustrail.usdz; sourceTree = "<group>"; };
+		2FF2B4A02BCE392B00795AF5 /* toy_drummer_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_drummer_idle.usdz; sourceTree = "<group>"; };
+		2FF2B4A12BCE392B00795AF5 /* flower_tulip.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = flower_tulip.usdz; sourceTree = "<group>"; };
+		2FF2B4A22BCE392B00795AF5 /* toy_biplane_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_biplane_idle.usdz; sourceTree = "<group>"; };
+		2FF2B4A32BCE392B00795AF5 /* teapot.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = teapot.usdz; sourceTree = "<group>"; };
+		2FF2B4A42BCE392B00795AF5 /* sneaker_airforce.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = sneaker_airforce.usdz; sourceTree = "<group>"; };
+		2FF2B4A52BCE392B00795AF5 /* robot_walk_idle.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = robot_walk_idle.usdz; sourceTree = "<group>"; };
+		2FF2B4A62BCE392B00795AF5 /* toy_car.usdz */ = {isa = PBXFileReference; lastKnownFileType = file.usdz; path = toy_car.usdz; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2FBE10AE2BBB4D25007707E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBE10B72BBB4D25007707E0 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2FBE10A82BBB4D25007707E0 = {
+			isa = PBXGroup;
+			children = (
+				2FBE10B32BBB4D25007707E0 /* demoForVision */,
+				2FBE10B42BBB4D25007707E0 /* Packages */,
+				2FBE10B22BBB4D25007707E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2FBE10B22BBB4D25007707E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FBE10B12BBB4D25007707E0 /* demoForVision.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2FBE10B32BBB4D25007707E0 /* demoForVision */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2B49E2BCE390D00795AF5 /* Models */,
+				2FBE10B82BBB4D25007707E0 /* demoForVisionApp.swift */,
+				2FBE10BA2BBB4D25007707E0 /* ContentView.swift */,
+				2FC676132BBC8E77006250F6 /* InventoryItemView.swift */,
+				2FCCC4922BBD107E006EB1F4 /* InventoryItemViewModel.swift */,
+				2FBE10BE2BBB4D25007707E0 /* ImageBasedLighting.skybox */,
+				2FBE10C02BBB4D26007707E0 /* Assets.xcassets */,
+				2FBE10C52BBB4D26007707E0 /* Info.plist */,
+				2FBE10C22BBB4D26007707E0 /* Preview Content */,
+			);
+			path = demoForVision;
+			sourceTree = "<group>";
+		};
+		2FBE10B42BBB4D25007707E0 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				2FBE10B52BBB4D25007707E0 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		2FBE10C22BBB4D26007707E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2FBE10C32BBB4D26007707E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2FF2B49E2BCE390D00795AF5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FF2B4A12BCE392B00795AF5 /* flower_tulip.usdz */,
+				2FF2B4A52BCE392B00795AF5 /* robot_walk_idle.usdz */,
+				2FF2B4A42BCE392B00795AF5 /* sneaker_airforce.usdz */,
+				2FF2B49F2BCE392B00795AF5 /* sneaker_pegasustrail.usdz */,
+				2FF2B4A32BCE392B00795AF5 /* teapot.usdz */,
+				2FF2B4A22BCE392B00795AF5 /* toy_biplane_idle.usdz */,
+				2FF2B4A62BCE392B00795AF5 /* toy_car.usdz */,
+				2FF2B4A02BCE392B00795AF5 /* toy_drummer_idle.usdz */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2FBE10B02BBB4D25007707E0 /* demoForVision */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBE10C82BBB4D26007707E0 /* Build configuration list for PBXNativeTarget "demoForVision" */;
+			buildPhases = (
+				2FBE10AD2BBB4D25007707E0 /* Sources */,
+				2FBE10AE2BBB4D25007707E0 /* Frameworks */,
+				2FBE10AF2BBB4D25007707E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = demoForVision;
+			packageProductDependencies = (
+				2FBE10B62BBB4D25007707E0 /* RealityKitContent */,
+			);
+			productName = demoForVision;
+			productReference = 2FBE10B12BBB4D25007707E0 /* demoForVision.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2FBE10A92BBB4D25007707E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					2FBE10B02BBB4D25007707E0 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = 2FBE10AC2BBB4D25007707E0 /* Build configuration list for PBXProject "demoForVision" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2FBE10A82BBB4D25007707E0;
+			productRefGroup = 2FBE10B22BBB4D25007707E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2FBE10B02BBB4D25007707E0 /* demoForVision */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2FBE10AF2BBB4D25007707E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBE10C12BBB4D26007707E0 /* Assets.xcassets in Resources */,
+				2FF2B4AD2BCE392B00795AF5 /* robot_walk_idle.usdz in Resources */,
+				2FF2B4AC2BCE392B00795AF5 /* sneaker_airforce.usdz in Resources */,
+				2FF2B4A72BCE392B00795AF5 /* sneaker_pegasustrail.usdz in Resources */,
+				2FBE10C42BBB4D26007707E0 /* Preview Assets.xcassets in Resources */,
+				2FF2B4AA2BCE392B00795AF5 /* toy_biplane_idle.usdz in Resources */,
+				2FF2B4AB2BCE392B00795AF5 /* teapot.usdz in Resources */,
+				2FF2B4A92BCE392B00795AF5 /* flower_tulip.usdz in Resources */,
+				2FBE10BF2BBB4D25007707E0 /* ImageBasedLighting.skybox in Resources */,
+				2FF2B4A82BCE392B00795AF5 /* toy_drummer_idle.usdz in Resources */,
+				2FF2B4AE2BCE392B00795AF5 /* toy_car.usdz in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2FBE10AD2BBB4D25007707E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FBE10BB2BBB4D25007707E0 /* ContentView.swift in Sources */,
+				2FBE10B92BBB4D25007707E0 /* demoForVisionApp.swift in Sources */,
+				2FC676142BBC8E77006250F6 /* InventoryItemView.swift in Sources */,
+				2FCCC4932BBD107E006EB1F4 /* InventoryItemViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2FBE10C62BBB4D26007707E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Debug;
+		};
+		2FBE10C72BBB4D26007707E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 1.1;
+			};
+			name = Release;
+		};
+		2FBE10C92BBB4D26007707E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"demoForVision/Preview Content\"";
+				DEVELOPMENT_TEAM = YLHGKX333U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cizo.demoForVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Debug;
+		};
+		2FBE10CA2BBB4D26007707E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"demoForVision/Preview Content\"";
+				DEVELOPMENT_TEAM = YLHGKX333U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cizo.demoForVision;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FBE10AC2BBB4D25007707E0 /* Build configuration list for PBXProject "demoForVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBE10C62BBB4D26007707E0 /* Debug */,
+				2FBE10C72BBB4D26007707E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBE10C82BBB4D26007707E0 /* Build configuration list for PBXNativeTarget "demoForVision" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2FBE10C92BBB4D26007707E0 /* Debug */,
+				2FBE10CA2BBB4D26007707E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2FBE10B62BBB4D25007707E0 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2FBE10A92BBB4D25007707E0 /* Project object */;
+}
