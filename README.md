@@ -12,9 +12,9 @@ This repository contain code for loadind 3D models in VisionPro. This is the fir
 - Xcode 12.0+
 
 ## Code 
-Model folder contain all model which is use in this demo.
-ContentView.swift contain code for display list of 3D models
-InventoryItemView.swift contain code for loading 3D models and perform zoom in/out, scale and moving object code.
+- Model folder contain all model which is use in this demo.
+- ContentView.swift contain code for display list of 3D models
+- InventoryItemView.swift contain code for loading 3D models and perform zoom in/out, scale and moving object code.
  
 <p float="left">
 <img src='https://github.com/cizodevahm/VisionOS-3D-Model/blob/main/Images/1.png' width='1366' height='1024'>
