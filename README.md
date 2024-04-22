@@ -8,7 +8,7 @@ This repository contain code for loadind 3D models in VisionPro. This is the fir
 - 🎨 Supports any icon and title of your choice.
 
 ## Requirements
-- iOS 13.0+
+- VisionOS 1.0+
 - Xcode 12.0+
 
 ## Code 
